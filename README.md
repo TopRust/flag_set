@@ -1,6 +1,6 @@
 # FlagSet
 
-[![Crate](https://img.shields.io/crates/v/flag_set)](https://crates.io/crates/flag_set)[![API](https://img.shields.io/docsrs/flag_set/0.1.3)](https://docs.rs/flag_set/)
+[![Crate](https://img.shields.io/crates/v/flag_set)](https://crates.io/crates/flag_set) [![API](https://img.shields.io/docsrs/flag_set/0.1.3)](https://docs.rs/flag_set/)
 
 `HashSet` only implements the normal set. `HashSet` can not represent its complementary set when the complementary set is an infinite set.
 
