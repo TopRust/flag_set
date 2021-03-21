@@ -1,7 +1,7 @@
 [package]
 name = "flag_set"
 version = "0.1.0"
-authors = [WeiyvWang <ziranjuangu@outlook.com>"]
+authors = ["WeiyvWang <ziranjuangu@outlook.com>"]
 description = "FlagSet can process operations of the infinte complementary sets and the origin sets"
 license = "MIT/Apache-2.0"
 edition = "2018"
