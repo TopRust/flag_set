@@ -2,7 +2,7 @@
 #![allow(non_snake_case)]
 #![allow(dead_code)]
 
-//! [![Crate](https://img.shields.io/crates/v/flag_set)](https://crates.io/crates/flag_set) ![docs.rs](https://img.shields.io/docsrs/flag_set)
+//! [![Crate](https://img.shields.io/crates/v/flag_set)](https://crates.io/crates/flag_set) ![docs.rs](https://img.shields.io/docsrs/flag_set)<br>
 //! `HashSet` only implements the normal set. `HashSet` can not represent its complementary set when the complementary set is an infinite set.
 //! 
 //! `FlagSet` implemented as a tuple of a `HashSet` and a  `bool` value. When the `bool` value is true, `FlagSet` represents the `HashSet`.  When the `bool` value is true, `FlagSet` represents the the complementary set of `HashSet`.
