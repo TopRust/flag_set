@@ -1,10 +1,14 @@
+# FlagSet
+
+[![Crate](https://img.shields.io/crates/v/flag_set)](https://crates.io/crates/flag_set)[![API](https://img.shields.io/docsrs/flag_set/0.1.3)](https://docs.rs/flag_set/)
+
 `HashSet` only implements the normal set. `HashSet` can not represent its complementary set when the complementary set is an infinite set.
 
 `FlagSet` implemented as a tuple of a `HashSet` and a  `bool` value. When the `bool` value is true, `FlagSet` represents the `HashSet` .  When the `bool` value is true, `FlagSet` represents the the complementary set of `HashSet` .
 
 As with the [`HashSet`](https://doc.rust-lang.org/std/collections/struct.HashSet.html) type, a `FlagSet` requires that the elements implement the [`Eq`](https://doc.rust-lang.org/std/cmp/trait.Eq.html) and [`Hash`](https://doc.rust-lang.org/std/hash/trait.Hash.html) traits. In addition to operations of `FlagSet`, the elements also implement the  [`Clone`](https://doc.rust-lang.org/std/clone/trait.Clone.html) trait.
 
-`FlagSet` also defines five kinds of operations of sets based on  [`Binary Operations`](http://www.unicode.org/reports/tr18/#Resolving_Character_Ranges_with_Strings)
+`FlagSet` also defines five kinds of operations of sets based on  [`Binary Operations`](http://www.unicode.org/reports/tr18/#Resolving_Character_Ranges_with_Strings).
 
 
 A ∪B -> A + B 
