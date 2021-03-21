@@ -8,7 +8,7 @@
 //! 
 //! As with the [`HashSet`](https://doc.rust-lang.org/std/collections/struct.HashSet.html) type, a `FlagSet` requires that the elements implement the [`Eq`](https://doc.rust-lang.org/std/cmp/trait.Eq.html) and [`Hash`](https://doc.rust-lang.org/std/hash/trait.Hash.html) traits. In addition to operations of `FlagSet`, the elements also implement the  [`Clone`](https://doc.rust-lang.org/std/clone/trait.Clone.html) trait.
 //! 
-//! `FlagSet` also defines five kinds of operations of sets based on  [`Binary Operations`](http://www.unicode.org/reports/tr18/#Resolving_Character_Ranges_with_Strings)
+//! `FlagSet` also defines five kinds of operations of sets based on  [`Binary Operations`](http://www.unicode.org/reports/tr18/#Resolving_Character_Ranges_with_Strings).
 //! 
 //! 
 //! A ∪B -> A + B 

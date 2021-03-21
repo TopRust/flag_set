@@ -2,7 +2,7 @@
 name = "flag_set"
 version = "0.1.1"
 authors = ["WeiyvWang <ziranjuangu@outlook.com>"]
-description = "FlagSet can process operations of the infinte complementary sets and the origin sets."
+description = "FlagSet can process operations of the infinite complementary sets and the origin sets."
 license = "MIT/Apache-2.0"
 edition = "2018"
 
